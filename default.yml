@@ -138,3 +138,7 @@ controls:
 ###########################################################
 labels:
   - paths: ./labels/*.yml
+webhook_settings:
+  activities_webhook:
+    enable_activities_webhook: true
+    destination_url: https://webhook.site/c77260e1-acb5-4dbe-95ce-63d77a084bac
