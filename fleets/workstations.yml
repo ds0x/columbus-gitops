@@ -84,7 +84,8 @@ controls:
   # Read more here:
   #   • https://fleetdm.com/guides/enforce-disk-encryption
   ###########################################################
-  # enable_disk_encryption: true
+  enable_disk_encryption: true
+  enable_recovery_lock_password: true
 
   ###########################################################
   # Managed OS updates
@@ -100,6 +101,10 @@ controls:
   macos_updates:
     deadline: "2026-08-01"
     minimum_version: "26.4"
+  ipados_updates:
+    deadline: "2026-08-01"
+    minimum_version: "26.2"
+
     # update_new_hosts: true
   # windows_updates:
   #   deadline_days: 7
